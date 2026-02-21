@@ -1,52 +1,126 @@
-# \# 🏥 Insurance Cost Predictor
+\# 🏥 Insurance Cost Predictor
 
-# 
 
-# \[!\[Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://python.org)
 
-# \[!\[Streamlit](https://img.shields.io/badge/Streamlit-1.28%2B-red)](https://streamlit.io)
+\[!\[Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://python.org)
 
-# \[!\[License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+\[!\[Streamlit](https://img.shields.io/badge/Streamlit-1.28%2B-red)](https://streamlit.io)
 
-# 
+\[!\[GitHub](https://img.shields.io/badge/GitHub-0.0%20forks)]()
 
-# A machine learning web application that predicts annual medical insurance charges based on personal information like age, BMI, smoking status, and region.
+\[!\[GitHub](https://img.shields.io/badge/Github-0.0%20forks)]()
 
-# 
 
-# \## 📊 Project Overview
 
-# 
+A machine learning web application that predicts annual medical insurance charges based on personal information.
 
-# This project uses the Medical Cost Personal Dataset to build a linear regression model that predicts insurance costs. The model is deployed as an interactive web app using Streamlit.
 
-# 
 
-# \*\*Key Features:\*\*
+\## 📊 Project Overview
 
-# \- 🔐 Google OAuth authentication
 
-# \- 📝 Input form for user details (age, BMI, smoking status, etc.)
 
-# \- 🤖 ML-powered cost prediction
+This project uses the Medical Cost Personal Dataset to build a linear regression model that predicts insurance costs.
 
-# \- 💾 MySQL database to store prediction history
 
-# \- 🌿 Personalized health tips based on user profile
 
-# \- 📈 Interactive visualizations of prediction trends
+\*\*Key Features:\*\*
 
-# 
+\- 🔐 Google OAuth authentication
 
-# \## 🚀 Live Demo
+\- 📝 Input form for user details
 
-# 
+\- 🤖 ML-powered cost prediction
 
-# \[!\[Streamlit App](https://static.streamlit.io/badges/streamlit\_badge\_black\_white.svg)](https://your-app-url.streamlit.app)
+\- 💾 MySQL database for history
 
-# 
+\- 🌿 Personalized health tips
 
-# \## 📂 Project Structure
+
+
+\## 📂 Project Structure
+
+insurance-cost-predictor/
+
+├── data/ # Dataset files
+
+│ └── insurance.csv
+
+├── notebooks/ # Jupyter notebooks
+
+│ └── 01\_eda\_and\_model.ipynb
+
+├── app/ # Streamlit web application
+
+│ ├── app.py
+
+│ └── requirements.txt
+
+├── README.md
+
+└── .gitignore
+
+
+
+\## 📊 Dataset Features
+
+
+
+| Feature | Description |
+
+|---------|-------------|
+
+| age | Age of primary beneficiary |
+
+| sex | Gender (male/female) |
+
+| bmi | Body Mass Index |
+
+| children | Number of children |
+
+| smoker | Smoking status |
+
+| region | Residential area |
+
+| charges | Medical costs |
+
+
+
+\## 🗓️ Project Progress
+
+
+
+\- \[x] \*\*Day 1:\*\* Project setup, data loading
+
+\- \[ ] \*\*Day 2:\*\* Exploratory Data Analysis
+
+\- \[ ] \*\*Day 3:\*\* Model building
+
+\- \[ ] \*\*Day 4:\*\* Streamlit app
+
+\- \[ ] \*\*Day 5:\*\* Database integration
+
+\- \[ ] \*\*Day 6:\*\* Authentication \& security
+
+\- \[ ] \*\*Day 7:\*\* Deployment
+
+
+
+\## 🚀 Installation
+
+
+
+```bash
+
+git clone https://github.com/neomuk1365/insurance-cost-predictor.git
+
+cd insurance-cost-predictor
+
+pip install -r app/requirements.txt
+
+📝 License
+
+MIT License
 
 
 
