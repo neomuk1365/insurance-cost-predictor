@@ -108,16 +108,6 @@ insurance-cost-predictor/
 
 \## 🚀 Installation
 
-
-
-```bash
-
-git clone https://github.com/neomuk1365/insurance-cost-predictor.git
-
-cd insurance-cost-predictor
-
-pip install -r app/requirements.txt
-
 📝 License
 
 MIT License
